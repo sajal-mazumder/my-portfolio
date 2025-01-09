@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../src/butter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(138, 99, 99, 0.699);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#div01>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+#div01>a:hover{
+    color: rgb(28, 3, 248);
+    font-size: large;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+#image>img{
+    padding: 10px 0;
+    margin-left: -100px;
+    height: 60px;
+    width: 60px;
+}
+
+#button>a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#button>a:hover{
+    color: white;
+    font-size: larger;
+    transition: .5s;
+}
+
+#div02{
+    /* margin-top: 80px; */
+    background-color:rgba(129, 136, 143, 0.096);
+}
+
+#hello{
+    color: blueviolet; 
+    font-family:cursive;font-size: 2rem;
+}
+
+#p1{
+    color: rgb(247, 243, 247); 
+    padding: 20px;
+}
+
+#h3_01{
+    text-align: center; 
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: wheat;
+}
