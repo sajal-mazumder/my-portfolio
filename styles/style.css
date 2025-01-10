@@ -18,8 +18,18 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
 }
 
+#button{
+    margin-bottom: 50px;
+}
+
+#move{
+    margin-top: 80px;
+}
 #div01{
     display: flex;
     justify-content: space-evenly;
@@ -77,13 +87,6 @@ nav{
     font-family:cursive;font-size: 2rem;
 }
 
-#p1{
-    color: rgb(247, 243, 247); 
-    padding: 20px;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #h3_01{
     text-align: center; 
     font-family: 'Arial Narrow Bold', sans-serif;
@@ -95,6 +98,170 @@ nav{
     transition: 0.8s;
 }
 
+/* hero section */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    /* background-color: #ffffff; */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero h1 .highlight {
+    color: #fafbfc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6c757d;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(0, 123, 255);
+}
+
+.hero-image {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.568);
+}
+
+.h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.h1:hover{
+    font-size: 3.5rem;
+    color: aliceblue;
+    transition: .5s;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+
+.h3{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.lorem{
+    background-color: rgba(255, 255, 255, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.lorem:hover{
+    background-color: rgba(0, 255, 255, 0.534);
+    transition: 0.5s;
+}
+
+/* contact us page */
+
+#form_content{
+    background-color: rgba(28, 93, 136, 0.301);
+    height: 100vh;
+    width: 800px;
+    margin-left: 400px;
+}
+
+#mover{
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+.sign1{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(253, 252, 253);
+}
+
+.sign{
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color:rgb(253, 252, 253);
+}
+
+.form{
+    padding: 10px 50px;
+}
+
+label{
+    /* color: white; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+input{
+    margin: 10px 0;
+    background: none;
+    width: 70%;
+    height: 30px;
+    border: none;
+    /* color: white; */
+}
+
+
 
 
 
@@ -105,8 +272,11 @@ nav{
     background-color: rgba(138, 99, 99, 0.699);
     color: white;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     padding: 5px 0;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
 }
 
 .fa-brands{
