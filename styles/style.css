@@ -193,14 +193,14 @@ nav{
     margin-bottom: 80px;
 }
 
-.h3{
-    font-size: 2rem;
+.h33{
+    /* font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
+    color: rgb(10, 0, 0);
+    text-align: center; */
 }
 
-.lorem{
+.office{
     background-color: rgba(255, 255, 255, 0.486);
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 5px;
@@ -208,14 +208,15 @@ nav{
     width: 400px;
     text-align: center;
     padding: 10px;
+    border-radius: 5px;
 }
 
-.lorem:hover{
+.office:hover{
     background-color: rgba(0, 255, 255, 0.534);
     transition: 0.5s;
 }
 
-/* contact us page */
+/* contact me page */
 
 #form_content{
     background-color: rgba(28, 93, 136, 0.301);
@@ -257,7 +258,8 @@ input{
     background: none;
     width: 70%;
     height: 30px;
-    border: none;
+    border: 1px solid;
+    border-radius: 20px;
     /* color: white; */
 }
 
@@ -283,3 +285,185 @@ input{
     color: white;
     padding: 5px 0;
 }
+
+
+/* about me page */
+
+body{
+    background-color: rgba(240, 248, 255, 0.432);
+}
+
+.maincontainer{
+    width: 80%;
+    height: 100vh;
+    /* background-color: rgb(46, 48, 48); */
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.leftbar{
+    background-color: rgb(27, 131, 117);
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    height: 1100px;
+    border-radius: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+ul>li{
+    padding: 10px;
+    list-style: none;
+}
+
+.image>img{
+    padding: 20px auto;
+    border: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(8, 0, 0);
+}
+
+.symbol{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.symbol>i{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    padding: 10px auto;
+    margin: 10px auto;
+    text-align: left;
+     
+}
+
+.symbol1{
+    padding: 5px 0;
+}
+
+.symbol1>i{
+    padding: 2px;
+    background-color: rgb(252, 251, 251);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%; 
+    color: rgb(27, 131, 117);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+h2{
+    color: white;
+    font-family: helvetica;
+    font-weight: bolder;
+    /* font-size: 2.5rem; */
+}
+
+#myintro{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+    padding-top: 5px ;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 131, 117);
+}
+
+.subli{
+    list-style:square;
+    color: white;
+}
+
+.maicontent{
+    background-color: #6c757d65;
+    margin-left: 50px;
+    /* padding: 20px; */
+
+    /* background-color: rgb(177, 77, 77); */
+    width: 100%;
+    height: 1000px;
+}
+
+#contentdiv{
+    padding: 10px 10px;
+}
+
+#h10{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(27, 131, 117);
+    text-align: center;
+}
+
+#h11{
+    /* margin-top: -25px; */
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(27, 131, 117);
+    text-align: center;
+}
+
+#designer{
+    text-align: center;
+    color: rgb(27, 131, 117); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1{
+    /* margin-top: 80px;
+    color: rgb(27, 131, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px; */
+}
+
+#exp{
+    margin-top: 20px;
+}
+
+.righth3{
+    background-color:rgb(27, 131, 117) ;
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10px ;
+}
+
+.righth4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: -2.5px 0;
+}
+
+.right_p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: -0.5px 0; */
+}
+
+progress{
+    /* float: right; */
+    /* color: red; */
+    /* background-color: rgb(119, 87, 87); */
+}
+
